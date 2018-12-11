@@ -41,7 +41,7 @@ aside ul li{
   font-size: 20px;
   color: #FFFFFF;
 }
-ul li:hover{
+li:hover{
   background: #566573 ;
   color: black;
 }
