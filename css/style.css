@@ -41,6 +41,10 @@ aside ul li{
   font-size: 20px;
   color: #FFFFFF;
 }
+ul li:hover{
+  background: #566573 ;
+  color: black;
+}
 article{
   width: 75%;
   height: 600px;
