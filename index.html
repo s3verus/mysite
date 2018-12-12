@@ -9,6 +9,36 @@
     <title>safe mode security</title>
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style type="text/css">
+        #menubar{
+            position: absolute;
+            top: 30px;
+            left: 40px;
+        }
+    </style>
+    <script>
+/*
+        jQuery(document).ready(function(){
+
+            jQuery.noConflict();
+
+            jQuery("#menu").click(function{
+                jQuery("a").toggle();
+            });
+            jQuery("#menubar").click(function{
+                jQuery("aside").toggle();
+            });
+            jQuery("aside").css({"display":"none"});
+            jQuery("a").css({"display":"none"});
+
+            jQuery("#p1").css({"display":"none"});
+            jquery("#about").click(function(){
+                jquery("#p1").show();
+            });
+
+        });
+*/
+    </script>
   </head>
 
   <body>
@@ -18,7 +48,9 @@
         <header>
 
             <h1>safe mode security</h1>
-
+            <div id="menubar">
+                <img src="files/menu-4-48.png" alt="">
+            </div>
         </header>
 
         <div class="center">
@@ -28,11 +60,11 @@
               <h3>wellcome to our site</h3>
 
               <ul>
-
+                <li id="menu">menu</li>
                 <a href="index.html"> <li>home</li></a>
                 <a href="https://aparat.com/shervin.abdollahi"> <li>aparat</li></a>
                 <a href="https://github.com/s3verus"> <li>github</li></a>
-                <a href="#"> <li>about</li></a>
+                <a href="#"> <li id="about">about</li></a>
 
               </ul>
 
@@ -41,6 +73,13 @@
             <article>
 
                 <p><h2>this site create to safe you in internet...</h2></p>
+                <div id="p1">
+                    <p>
+                      I'm S3verus and i'm programmer... ;)
+                      <br>
+                      en.severus@gmail.com
+                    </p>
+                </div>
 
             </article>
 
