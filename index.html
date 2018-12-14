@@ -17,6 +17,11 @@
         }
     </style>
     <script>
+        jQuery(document).ready(function(){
+            jQuery("#about").click(function(){
+                jQuery("#p1").load("about.txt");
+            });
+        });
 /*
         jQuery(document).ready(function(){
 
@@ -60,11 +65,10 @@
               <h3>wellcome to our site</h3>
 
               <ul>
-                <li id="menu">menu</li>
                 <a href="index.html"> <li>home</li></a>
                 <a href="https://aparat.com/shervin.abdollahi"> <li>aparat</li></a>
                 <a href="https://github.com/s3verus"> <li>github</li></a>
-                <a href="#"> <li id="about">about</li></a>
+                <li id="about">about</li>
 
               </ul>
 
@@ -74,11 +78,7 @@
 
                 <p><h2>this site create to safe you in internet...</h2></p>
                 <div id="p1">
-                    <p>
-                      I'm S3verus and i'm programmer... ;)
-                      <br>
-                      en.severus@gmail.com
-                    </p>
+
                 </div>
 
             </article>
