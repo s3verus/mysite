@@ -1,5 +1,14 @@
+
+
 <p>
-	I'm S3verus and I'm programmer...
+	I'm S3verus and I'm programmer...<br>
+	php,mysqli,js,jQuery,ajax,html5,css3,<br>
+	c,cpp,python,brainfuck ;)
 <br>
-	you can tell me in instagram "thisis_shervin"
+	you can tell me in :
+<br>
+	instagram "thisis_shervin"<br>
+	telegram "S3verus"<br>
+	github "S3verus"<br>
+	
 </p>
