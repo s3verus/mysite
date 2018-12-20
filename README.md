@@ -1,6 +1,7 @@
 ### safe-mode
 
 >daily hack news ;)
+
 >the open source project and free for all...
 
 
@@ -9,7 +10,7 @@
 
 
 
-### this site
+### news title :
 
 - [x] Cyber attacks
 - [x] Vulnerbilities
