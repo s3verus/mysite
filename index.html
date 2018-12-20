@@ -57,31 +57,31 @@
 
                 <div id="p1">
                     <h1>daily hack news</h1>
-                        <h3>Mayday! NASA Warns Employees of Personal Information Breach</h3>
-                        <p>
-                            Another day, another data breach. This time it's the United States National Aeronautics and Space Administration (NASA)<br />
-                            <br />
-                            NASA today confirmed a data breach that may have compromised personal information of some of its current and former employees after at least one of the agency's servers was hacked.<br />
-                            <br />
-                            In an internal <a href="http://spaceref.com/news/viewsr.html?pid=52074" target="_blank">memo</a> sent to all employees on Tuesday, NASA said the unknown hackers managed to gain access to one of its servers storing the personally identifiable information (PII), including social security numbers, of current and former employees.<br />
-                            The agency said NASA discovered the breach on October 23 when its cybersecurity personnel began investigating a possible breach of two of its servers holding employee records.<br />
-                            <br />
-                            After discovering the intrusion, NASA has since secured its servers and informed that the agency is working with its federal cybersecurity partners "to examine the servers to determine the scope of the potential data exfiltration and identify potentially affected individuals." However, NASA said this process "will take time."<br />
-                            <br />
-                            It should be noted that no space missions were jeopardized by the cyber incident, the agency said.<br />
-                            <br />
-                            According to the agency, any NASA Civil Service employee who joined, left, or transferred within the agency from July 2006 to October 2018 may have had their personal data compromised. NASA currently employs roughly 17,300 people.<br />
-                            <br />
-                            The agency said all the affected employees would be notified once identified, and offered identity theft protection services and related resources to all affected employees, past and present.<br />
-                            <br />
-                            "Our entire leadership team takes the protection of personal information very seriously. Information security remains a top priority for NASA," said Bob Gibbs, assistant administrator at NASA's Office of the Chief Human Capital Officer.<br />
-                            <br />
-                            "NASA is continuing its efforts to secure all servers, and is reviewing its processes and procedures to ensure that the latest security practices are being followed throughout the agency."<br />
-                            <br />
-                            This is not the first time when the agency's servers have been compromised. NASA suffered a massive security breach in 2016 when a hacking group released 276GB of sensitive data including flight logs and credentials of thousands of its employees.<br />
-                            <br />
-                            At that time, the hackers even attempted to crash a $222 million drone into the Pacific Ocean by gaining control over the drone by rerouting the flight path.</div>
-                            <br/>
+                        <h3>Microsoft Issues Emergency Patch For Under-Attack IE Zero Day</h3>
+                            <p>
+                                        Microsoft today issued an out-of-band security update to patch a critical zero-day vulnerability in Internet Explorer (IE) Web browser that attackers are already exploiting in the wild to hack into Windows computers.<br />
+                                <br />
+                                Discovered by security researcher Clement Lecigne of Google's Threat Analysis Group, the vulnerability, tracked as CVE-2018-8653, is a remote code execution (RCE) flaw in the IE browser's scripting engine.<br />
+                                <br />
+                                According to the advisory, an unspecified memory corruption vulnerability resides in the scripting engine JScript component of Microsoft Internet Explorer that handles execution of scripting languages.<br />
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                If exploited successfully, the vulnerability could allow attackers to execute arbitrary code in the context of the current user.<br />
+                                <br />
+                                "If the current user is logged on with administrative user rights, an attacker who successfully exploited the vulnerability could take control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights," the advisory reads.
+                                <br />
+                                Besides this, a remote attacker can also target victims by convincing them into viewing a specially crafted HTML document (e.g., a web page or an email attachment), MS Office document, PDF file or any other document that supports embedded IE scripting engine content.<br />
+                                <br />
+                                The IE zero-day vulnerability impacts IE 9 on Windows Server 2008, IE 10 on Windows Server 2012, IE 11 from Windows 7 to Windows 10, and IE 11 on Windows Server 2019, Windows Server 2016, Windows Server 2008 R2, Windows Server 2012 R2.<br />
+                                <br />
+                                Neither Google nor Microsoft has yet publicly disclosed any technical details about the IE zero-day vulnerability, proof-of-concept exploit code, or details about the ongoing cyber attack campaign utilizing this RCE bug.<br />
+                                <br />
+                                Since the vulnerability is actively being exploited in the wild which makes it a critical zero-day flaw, users are strongly recommended to install the latest updates provided by Microsoft as soon as possible.<br />
+                                Though it is not recommended, users who cannot immediately deploy patches can mitigate the threat by restricting access to jscript.dll file by running following command in the command prompt using admin privileges.<br />
+                                <br />
+                                For 32-bit System &#8212; cacls %windir%\system32\jscript.dll /E /P everyone:N
+                                <br />
+                                For 64-bit System &#8212; cacls %windir%\syswow64\jscript.dll /E /P everyone:N
+                                <br />
                         </p>
                 </div>
 
