@@ -17,6 +17,68 @@ header{
     top: 25px;
     left: 40px;
 }
+#logo{
+    opacity:0.35;
+    position: absolute;
+    top: 225px;
+    left: 540px;
+}
+
+@media only screen and (max-width: 1100px) {
+  #logo {
+    position: absolute;
+    left : 340px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #logo {
+    position: absolute;
+    left : 300px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #logo {
+      opacity: 0;
+  }
+  #h1{
+      font-size: 24px;
+  }
+  #ul{
+      padding: 0;
+  }
+  #ul li{
+      width: 95px;
+      height: 45px;
+  }
+  #aside{
+      width: 20%;
+  }
+  #article{
+      width: 80%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #ul li{
+      width: 85px;
+      height: 45px;
+  }
+  #aside h3{
+      opacity: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+    #menubar{
+        opacity: 0;
+    }
+    #aside{
+        opacity: 0;
+        width: 0%;
+    }
+    #article{
+        width: 100%;
+        border:0;
+    }
+}
 aside{
   width: 25%;
   height: 100%;
