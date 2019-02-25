@@ -1,18 +1,12 @@
 <!DOCTYPE html>
-
 <html lang="en" dir="ltr">
-
-  <head>
-
-    <meta charset="utf-8">
-
-    <title>safe mode security</title>
-    <script src="js/jquery.js"></script>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <style type="text/css">
-
-    </style>
-    <script>
+    <head>
+        <meta charset="utf-8">
+        <title>Safe Mode Security Co.</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <script src="js/jquery.js"></script>
+        <script>
         $.noConflict();
         jQuery(document).ready(function(){
 
@@ -23,79 +17,47 @@
         });
 
     </script>
-  </head>
-
-  <body>
-
-      <div class="main">
-
-        <header>
-
-            <h1 id="h1">safe mode security</h1>
-            <div id="menubar">
-                <img src="files/menu-4-48.png" alt="">
-            </div>
-        </header>
-
-        <div class="center">
-            <div id="logo">
-                <img src="files/security.png" alt="">
-            </div>
-
-            <aside id="aside">
-
-              <h3>wellcome to our site</h3>
-
-              <ul id="ul">
-                <a href="index.html"> <li>home</li></a>
-                <a href="https://aparat.com/shervin.abdollahi"> <li>aparat</li></a>
-                <a href="https://github.com/s3verus"> <li>github</li></a>
-                <li id="about">about</li>
-
-              </ul>
-
-            </aside>
-
-            <article id="article">
-
-                <div id="p1">
-                    <h1>daily hack news</h1>
-
-                    <h2><p>The storage server was left open for about a week and exposed everything from sensitive FBI investigations to data related to patients with AIDS. </p></h2>
-
-					<p>Millions of sensitive files on a storage server belonging to the Oklahoma Department of Securities were left exposed for a week – including credentials, internal docs and personal data stretching back decades.</p>
-                    <p>Researchers at UpGuard who discovered the data leak said that the publicly accessible data totaled a whopping three terabytes. The more severe types of files exposed included documents detailing FBI investigations, Social Security numbers for ten thousand brokers, credentials for remote access to Oklahoma Department of Securities workstations &#8211; and even a list of data relating to AIDS patients, including patient names.</p>
-                    <p>&#8220;The amount, and reach, of administrative and staff credentials represents a significant impact to the Oklahoma Department of Securities&#8217; network integrity,&#8221; said UpGuard in a Wednesday post detailing the leak. &#8220;The contents of those files ran the gamut from personal information to system credentials to internal documentation and communications intended for the Oklahoma Securities Commission.&#8221;</p>
-                    <p>The Oklahoma Securities Commission, part of the state&#8217;s Department of Securities, ensures that individuals and firms in the financial trade markets follow the regulations that prevent fraud.</p>
-                    <p>The data was exposed through an unsecured rsync service, which is is a utility for synchronizing files across computer systems. It resided at an IP address registered to the Oklahoma Office of Management and Enterprise Services, researchers said. That allowed any user from any IP address to download all the files stored on the server.</p>
-                    <p>The server was first registered on Shodan as publicly accessible on Nov. 30, and it laid open for a week before UpGuard analysts discovered it on Dec. 7. The firm notified Oklahoma on Dec. 8., which is when public access was removed, said researchers.</p>
-                    <p>The data exposed was generated over decades, with the oldest data originating in 1986 and the most recent modified in 2016.</p>
-                    <p>Much of the exposed information was about individuals that were involved in the exchange of financial securities. That includes individuals who may have been operating under larger organizations, or other times acting as individuals.</p>
-                    <p>For instance, a CSV file was also found, labeled &#8220;IdentifyingInformation.csv,&#8221; which featured data like date, country and state of birth, gender, height, weight, hair color and eye color for over a hundred thousand financial brokers.</p>
-                    <p>And, one database related to viators (a financial vehicle through which terminally ill patients can sell their life insurance benefits) contained data related to people with AIDS –  including patient names and T-cell counts.</p>
-                    <div style="width: 310px"><a href="https://media.threatpost.com/wp-content/uploads/sites/103/2019/01/16144821/upguard.png"><img src="https://media.threatpost.com/wp-content/uploads/sites/103/2019/01/16144821/upguard-300x172.png" alt="Oklahoma securities open server" width="600" height="300" /></a></div>
-                    <p>Also exposed were an array of databases and spreadsheets that contained various kinds of credentials: including VNC credentials for remote access to Oklahoma Department of Securities workstations, credentials for third parties that submitted securities filings, and usernames/passwords for IT services accounts like Symantec Protection Suite, Tivoli and others.</p>
-                    <p>&#8220;Exposed system credentials can carry the highest risk for large-scale abuse,&#8221; UpGuard researchers said. &#8220;Not only can credentials be used to gather PII, but in offering access to systems themselves they may be used to modify files– for example, for the purpose of further distributing malware– or to gather information that is intentionally obscured in its storage format.&#8221;</p>
-                    <p>Finally, the Oklahoma rsync server exposed a swathe of business-related data, including commissioners&#8217; email histories, supporting files for Department of Securities investigations and spreadsheets outlining the timeline for investigations by the FBI and people they interviewed.</p>
-                    <p>&#8220;Sensitive data is often shared in vulnerable places, so Oklahoma&#8217;s potential breach of 3TB of FBI data isn&#8217;t especially shocking,&#8221; Kevin Bocek, vice president of security strategy and threat intelligence at Venafi, said in an email. &#8220;However, if we examine securities.ok.gov, it appears that the state is not using trusted machine identities, like TLS keys and certificates. Today, browsers are marking this site as &#8216;not secure,&#8217; because it is not using HTTPS encryption. This means that browsers do not trust the machine identities used to identify Oklahoma&#8217;s servers.&#8221;</p>
-                    <p>Researchers stressed the importance of maintaining control over data storage.</p>
-                    <p>&#8220;Businesses and organizations naturally accumulate stores of data, both because of the value of that data and to comply with retention policies,&#8221; they said. &#8220;Creating backups is a good practice to increase resilience in the face of attacks like ransomware. Backups are also necessary for migrations to ensure data can be recovered as businesses adopt newer and more secure technologies. But as this case highlights, the final crucial step is to maintain control over every copy of those data stores.&#8221;</p>
-                    <p>A spokesperson for the Oklahoma did not respond immediately to Threatpost&#8217;s comments.</p>
-
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="list">
+                    <ul>
+                        <li><a href="#">Application</a></li>
+                        <li><a href="#">Places</a></li>
+                    </ul>
+                    <!-- <ul class="top-menu">
+                        <h2>Favorites</h2>
+                        <li>login</li>
+                        <li>sign up</li>
+                        <li>aparat</li>
+                        <li>about</li>
+                    </ul> -->
                 </div>
-
-            </article>
-
-        </div>
-
-        <footer>
-
-            <h4>Dsigned by ME!</h4>
-
-        </footer>
-
-      </div>
-
-  </body>
-
+                <div class="clock-space">
+                    <div class="clock">
+                        <h3>Mon 21:28</h3>
+                    </div>
+                </div>
+                <div class="other">
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-volume-up"></i>
+                    <a href="#"><i class="fas fa-power-off"></i></a>
+                </div>
+            </header>
+            <div class="center">
+                <aside class="menu">
+                    <a href="#"><i class="fas fa-terminal"></i></a>
+                    <a href="https://safe-mode.ir"><i class="fab fa-firefox"></i></a>
+                    <a href="https://github.com/s3verus"><i class="fab fa-github"></i></a>
+                    <a href="https://atom.io"><i class="fas fa-atom"></i></a>
+                    <a href="#" id="about"><i class="fas fa-sticky-note"></i></a>
+                    <a href="#"><i class="fas fa-th"></i></a>
+                </aside>
+                <article class="page">
+                    <p id="p1">coming soon...</p>
+                </article>
+            </div>
+        </main>
+    </body>
 </html>
