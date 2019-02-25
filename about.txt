@@ -2,7 +2,7 @@
 <h1>about me!</h1>
 <p>
 	I'm S3verus and I'm programmer...<br>
-	php ,mysqli ,js ,jQuery ,ajax ,html5 ,css3 ,<br>
+	php ,mysqli ,js (jQuery) ,ajax ,html5 ,css3 ,<br>
 	c ,cpp ,python ,brainfuck ;)
 <br>
 <h2>contact me</h2>
