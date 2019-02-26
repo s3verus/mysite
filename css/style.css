@@ -99,8 +99,7 @@ article{
 #subMenu ul li{
     width: 120px;
     height: 20px;
-    display: block;
-    opacity: 0;
+    display:none;
     text-align: left;
     margin: 0;
     padding: 5px 20px;
@@ -110,5 +109,35 @@ article{
     background-color: #3498db;
 }
 #subMenu:hover ul li{
-    opacity: 1;
+    display:block;
+}
+@media screen and (max-width:1050px) {
+    article{
+        width: 85%;
+    }
+}
+@media screen and (max-width:950px) {
+    body{
+        background: url(../files/kali.png) no-repeat;
+    }
+}
+@media screen and (max-width:700px) {
+    article{
+        width: 80%;
+    }
+}
+@media screen and (max-width:550px) {
+    aside{
+        display: none;
+    }
+    article{
+        width: 100%;
+        margin:0;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:400px) {
+    #clock{
+        display: none;
+    }
 }
