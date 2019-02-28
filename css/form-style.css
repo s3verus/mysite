@@ -20,22 +20,29 @@ a{
     transform: translate(-50%,-50%);
     float: left;
     border-radius: none;
+    overflow: hidden;
 }
 input{
-    width: 100%;
-    overflow: hidden;
-    font-size: 20px;
-    padding: 8px 0;
-    margin: 8px 0;
-    border-bottom: 1px solid white;
-    border: none;
+   width: 100%;
+   font-size: 20px;
+   padding: 8px 3px;
+   margin: 8px 0;
+   border: none;
    outline: none;
    background: none;
    color: white;
    font-size: 18px;
    width: 90%;
    float: left;
-   margin:0 10px;
+   margin:3px 10px;
+   box-sizing: border-box;
+
+}
+input:hover{
+    border: 1px solid white;
+}
+.cursor{
+    cursor: pointer;
 }
 .back{
     position: absolute;
@@ -43,4 +50,22 @@ input{
     right: 15px;
     color: white;
     font-size: 24px;
+}
+.text-area{
+    display: block;
+    padding: 8px 3px;
+    box-sizing: border-box;
+    resize: none;
+    width: 90%;
+    height: 80px;
+    margin: 16px 10px;
+    outline: none;
+    background: white;
+    border: none;
+    color: black;
+    opacity: 0.1;
+    float: left;
+}
+.text-area:hover{
+    opacity: 0.2;
 }

@@ -10,13 +10,13 @@
         $.noConflict();
         jQuery(document).ready(function(){
 
-            jQuery("#about").click(function(){
+            jQuery(".about").click(function(){
                 jQuery("#p1").load("about.txt");
             });
-
         });
 
     </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <main>
@@ -29,8 +29,8 @@
                                 <a href="login.html"><li>01-login</li></a>
                                 <a href="signup.html"><li>02-sign up</li></a>
                                 <a href="https://aparat.com/shervin.abdollahi"><li>03-aparat</li></a>
-                                <a href="#"><li>04-about</li></a>
-                                <a href="#"> <li>05-contact me</li> </a>
+                                <a href="#" class="about"><li>04-about</li></a>
+                                <a href="contact.html"> <li>05-contact me</li> </a>
                             </ul>
                         </li>
                         <li id="subMenu">
@@ -53,7 +53,7 @@
                 <div class="other">
                     <i class="fas fa-wifi"></i>
                     <i class="fas fa-volume-up"></i>
-                    <a href="#"><i class="fas fa-power-off"></i></a>
+                    <a href="https://google.com"><i class="fas fa-power-off"></i></a>
                 </div>
             </header>
             <div class="center">
@@ -62,7 +62,7 @@
                     <a href="https://safe-mode.ir"><i class="fab fa-firefox"></i></a>
                     <a href="https://github.com/s3verus"><i class="fab fa-github"></i></a>
                     <a href="https://atom.io"><i class="fas fa-atom"></i></a>
-                    <a href="#" id="about"><i class="fas fa-sticky-note"></i></a>
+                    <a href="#" class="about"><i class="fas fa-sticky-note"></i></a>
                     <a href="#"><i class="fas fa-th"></i></a>
                 </aside>
                 <article class="page">
