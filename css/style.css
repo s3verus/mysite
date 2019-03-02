@@ -2,9 +2,12 @@
     font-family: sans-serif;
 }
 body{
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
     background: url(../files/kali.png) no-repeat;
+    background-color: gray;
     background-size: cover;
 }
 a{
@@ -53,7 +56,10 @@ ul li{
 }
 aside{
     float: left;
-    margin-top: 5%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
     height: 420px;
     width: 65px;
     color: white;
@@ -123,18 +129,22 @@ aside i:hover{
     article{
         width: 85%;
     }
-}
-@media screen and (max-width:950px) {
     body{
         background: url(../files/kali.png) no-repeat;
     }
 }
+/* @media screen and (max-width:950px) {
+
+} */
 @media screen and (max-width:700px) {
     article{
         width: 80%;
     }
 }
 @media screen and (max-width:550px) {
+    body{
+        background: url(../files/kali.jpeg) no-repeat center;
+    }
     aside{
         display: none;
     }
