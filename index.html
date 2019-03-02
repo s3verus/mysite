@@ -17,8 +17,18 @@
 
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        function RefreshDate(){
+            var refresh_date = setTimeout('ShowDate();', 10000);
+        }
+        function ShowDate(){
+            var now =  new Date();
+            var show = document.getElementById('date').innerHTML =now.getHours()+":"+ now.getMinutes();
+            var refresh_date = RefreshDate();
+        }
+    </script>
     </head>
-    <body>
+    <body onload="ShowDate();">
         <main>
             <header>
                 <div id="list">
@@ -47,7 +57,10 @@
                 </div>
                 <div id="clock">
                     <div class="clock">
-                        <h3>Mon 21:28</h3>
+                        <h3>
+                            <noscript>Sat 23:04 js need...</noscript>
+                            <div id="date"></div>
+                        </h3>
                     </div>
                 </div>
                 <div class="other">
