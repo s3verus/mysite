@@ -6,7 +6,7 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    background: url(../files/kali.png) no-repeat;
+    background: url(../files/kali.jpg) no-repeat;
     background-color: gray;
     background-size: cover;
 }
@@ -130,12 +130,9 @@ aside i:hover{
         width: 85%;
     }
     body{
-        background: url(../files/kali.png) no-repeat;
+        background: url(../files/kali.jpg) no-repeat center;
     }
 }
-/* @media screen and (max-width:950px) {
-
-} */
 @media screen and (max-width:700px) {
     article{
         width: 80%;
