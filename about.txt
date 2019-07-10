@@ -2,12 +2,13 @@
 <h1>about me!</h1>
 <p>
 	I'm S3verus and I'm programmer...<br>
-	php ,mysqli ,js (jQuery) ,ajax ,html5 ,css3 ,<br>
-	c ,cpp ,python ,brainfuck ;)
+	c ,cpp ,Java ,Python ,BashScript ,Brainfuck <br>
+	PHP5 ,mysqli ,JS (jQuery) ,ajax ,HTML5 ,CSS3 ,Bootstrap ;)
+	
 <br>
 <h2>contact me</h2>
 	you can tell me in :
 <br>
-	telegram "S3verus"<br>
+	telegram "user_en"<br>
 	github "S3verus"<br>
 </p>
