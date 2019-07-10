@@ -81,17 +81,16 @@ article{
     float: right;
     width: 90%;
     height: 100%;
-    background-color: white;
+    background-color: rgba(0,0,0,.5);
     margin: 20px;
     margin-top: 40px;
     padding: 20px;
     box-sizing: border-box;
-    opacity: 0.1;
-    color: black;
+    color: white;
     z-index: 1;
 }
 article:hover{
-    opacity: 0.2;
+    opacity: 0.9;
 }
 aside i:hover{
     background: white;
