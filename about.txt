@@ -2,8 +2,9 @@
 <h1>about me!</h1>
 <p>
 	I'm S3verus and I'm programmer...<br>
-	c ,cpp ,Java ,Python ,BashScript ,Brainfuck <br>
-	PHP5 ,mysqli ,JS (jQuery) ,ajax ,HTML5 ,CSS3 ,Bootstrap ;)
+	Assembly , C ,CPP ,Java ,Python ,BashScript ,Brainfuck <br>
+	PHP5&7 ,mysqli ,JavaScript , jQuery ,ajax ,HTML5 ,CSS3 <br>
+	Laravel5 , Bootstrap4 ;)
 	
 <br>
 <h2>contact me</h2>
